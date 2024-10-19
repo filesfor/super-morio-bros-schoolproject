@@ -1,0 +1,50 @@
+{
+    "name": "Super Morio Bros",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "arcade-character-animations": "github:microsoft/arcade-character-animations#v0.0.2",
+        "arcade-background-scroll": "github:microsoft/arcade-background-scroll#6cfbf925b9a4d5ddf3e1078e6cf6ca6a1aebb301",
+        "arcade-tile-util": "github:microsoft/arcade-tile-util#v1.0.1",
+        "Color Fading": "github:jwunderl/pxt-color#v0.2.2",
+        "Turtle Logo": "github:mr-coxall/turtle-logo#v1.0.0",
+        "controller": "*",
+        "arcade-minimap": "github:darzu/arcade-minimap#v0.5.1",
+        "arcade-sprite-util": "github:jwunderl/arcade-sprite-util#v0.2.5",
+        "animation": "*",
+        "storyboard": "*",
+        "arcade-story": "github:microsoft/arcade-storytelling#v1.0.3",
+        "arcade-text": "github:microsoft/arcade-text#v1.3.0",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0",
+        "pxt-zoom": "github:kiwiphoenix364/pxt-zoom#v1.0.2",
+        "pxt-rtttl": "github:pelikhan/pxt-rtttl#v0.0.12",
+        "arcade-sprite-events": "github:riknoll/arcade-sprite-events#dc93eec8412053ebbd2b8f01cf5b6ae285d28900",
+        "radio-broadcast": "*",
+        "block-menu": "github:riknoll/arcade-custom-menu#v0.0.1"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.8.23",
+        "tag": "v1.8.23",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/9c2cb5aa7c70a9b9cbfa1b3520ca036d82ba8483",
+        "target": "1.12.56",
+        "pxt": "7.4.27",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj"
+}
