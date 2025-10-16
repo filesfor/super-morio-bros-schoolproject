@@ -347,7 +347,7 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile2`, function (sprite, l
     Super_Mario.setFlag(SpriteFlag.GhostThroughSprites, true)
     Super_Mario.setFlag(SpriteFlag.GhostThroughTiles, true)
     Super_Mario.setFlag(SpriteFlag.GhostThroughWalls, true)
-    Super_Mario.vy = -200
+    Super_Mario.vy = -199
 })
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Flower, function (sprite, otherSprite) {
     FireMario = 1
